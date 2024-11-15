@@ -1,0 +1,13 @@
+# .streamlit/config.toml
+[theme]
+base = "dark"  
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableStaticServing = true
+
+[media]
+# background.mp4 파일을 위한 static 디렉토리 활성화
+video_quality = "high"
